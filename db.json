@@ -1,0 +1,58 @@
+{
+  "productos": [
+    {
+      "id": 1,
+      "nombre": "Stormtrooper",
+      "precio": "$60.00",
+      "imagen": "/img/image1.svg"
+    },
+    {
+      "id": 1,
+      "nombre": "Stormtrooper",
+      "precio": "$60.00",
+      "imagen": "/img/image2.svg"
+    },
+    {
+      "id": 1,
+      "nombre": "Stormtrooper",
+      "precio": "$60.00",
+      "imagen": "/img/image1.svg"
+    },
+    {
+      "id": 1,
+      "nombre": "Stormtrooper",
+      "precio": "$60.00",
+      "imagen": "/img/image2.svg"
+    },
+    {
+      "id": 1,
+      "nombre": "Stormtrooper",
+      "precio": "$60.00",
+      "imagen": "/img/image1.svg"
+    },
+    {
+      "id": 1,
+      "nombre": "Stormtrooper",
+      "precio": "$60.00",
+      "imagen": "/img/image2.svg"
+    },
+    {
+      "id": 1,
+      "nombre": "Stormtrooper",
+      "precio": "$60.00",
+      "imagen": "/img/image1.svg"
+    },
+    {
+      "id": 1,
+      "nombre": "Stormtrooper",
+      "precio": "$60.00",
+      "imagen": "/img/image2.svg"
+    },
+    {
+      "id": 1,
+      "nombre": "Stormtrooper",
+      "precio": "$60.00",
+      "imagen": "/img/image1.svg"
+    }
+  ]
+}

@@ -19,110 +19,22 @@
         <div class="mis_productos_container">
             <h2 class="misProductos">MIS PRODUCTOS</h2>
             <ul class="ulCarts">
-                <li class="videos__item">
-                    <div class="card_item">
-                        <img src="img/image1.svg" alt="">
-                        <p class="pieImg">Stormtrooper</p>
-                        <div class="descripcion_borrar">
-                            <p>$60.00</p>
-                            <img class="imgBorrar" src="img/borrar.svg" alt="borrar">
-                        </div>
-                    </div>
-                </li>
-                <li class="videos__item">
-                    <div class="card_item">
-                        <img src="img/image2.svg" alt="">
-                        <p class="pieImg">Stormtrooper</p>
-                        <div class="descripcion_borrar">
-                            <p>$60.00</p>
-                            <img class="imgBorrar" src="img/borrar.svg" alt="borrar">
-                        </div>
-                    </div>
-                </li>
-                <li class="videos__item">
-                    <div class="card_item">
-                        <img src="img/image1.svg" alt="">
-                        <p class="pieImg">Stormtrooper</p>
-                        <div class="descripcion_borrar">
-                            <p>$60.00</p>
-                            <img class="imgBorrar" src="img/borrar.svg" alt="borrar">
-                        </div>
-                    </div>
-                </li>
-                <li class="videos__item">
-                    <div class="card_item">
-                        <img src="img/image2.svg" alt="">
-                        <p class="pieImg">Stormtrooper</p>
-                        <div class="descripcion_borrar">
-                            <p>$60.00</p>
-                            <img class="imgBorrar" src="img/borrar.svg" alt="borrar">
-                        </div>
-                    </div>
-                </li>
-                <li class="videos__item">
-                    <div class="card_item">
-                        <img src="img/image1.svg" alt="">
-                        <p class="pieImg">Stormtrooper</p>
-                        <div class="descripcion_borrar">
-                            <p>$60.00</p>
-                            <img class="imgBorrar" src="img/borrar.svg" alt="borrar">
-                        </div>
-                    </div>
-                </li>
-                <li class="videos__item">
-                    <div class="card_item">
-                        <img src="img/image2.svg" alt="">
-                        <p class="pieImg">Stormtrooper</p>
-                        <div class="descripcion_borrar">
-                            <p>$60.00</p>
-                            <img class="imgBorrar" src="img/borrar.svg" alt="borrar">
-                        </div>
-                    </div>
-                </li>
-                <li class="videos__item">
-                    <div class="card_item">
-                        <img src="img/image1.svg" alt="">
-                        <p class="pieImg">Stormtrooper</p>
-                        <div class="descripcion_borrar">
-                            <p>$60.00</p>
-                            <img class="imgBorrar" src="img/borrar.svg" alt="borrar">
-                        </div>
-                    </div>
-                </li>
-                <li class="videos__item">
-                    <div class="card_item">
-                        <img src="img/image2.svg" alt="">
-                        <p class="pieImg">Stormtrooper</p>
-                        <div class="descripcion_borrar">
-                            <p>$60.00</p>
-                            <img class="imgBorrar" src="img/borrar.svg" alt="borrar">
-                        </div>
-                    </div>
-                </li>
-                <li class="videos__item">
-                    <div class="card_item">
-                        <img src="img/image1.svg" alt="">
-                        <p class="pieImg">Stormtrooper</p>
-                        <div class="descripcion_borrar">
-                            <p>$60.00</p>
-                            <img class="imgBorrar" src="img/borrar.svg" alt="borrar">
-                        </div>
-                    </div>
-                </li>
+                
             </ul>
             
         </div>
         <div class="agregar_producto_container">
             <h2 class="agregarProducto">AGREGAR PRODUCTO</h2>
-            <div class="inputsAgregarP">
-                <input class="inputDetalles" placeholder="Nombre..." type="text">
-                <input class="inputDetalles" placeholder="Precio..." type="text">
-                <input class="inputDetalles" placeholder="Imagen..." type="text">
-            </div>
-            <div class="buttons">
-                <button class="btnEnviar">Enviar</button>
-                <button class="btnLimpiar">Limpiar</button>
-            </div>
+            <form class="inputsAgregarP" id="formularioProducto">
+                <input class="inputDetalles" id="nombre" name="nombre" placeholder="Nombre..." type="text" required>
+                <input class="inputDetalles" id="precio" name="precio" placeholder="Precio..." type="text" required>
+                <input class="inputDetalles" id="imagen" name="imagen" placeholder="Imagen..." type="text" required>
+                <div class="buttons">
+                    <button class="btnEnviar" type="submit" onsubmit="">Enviar</button>
+                    <button class="btnLimpiar" type="reset">Limpiar</button>
+                </div>
+            </form>
+            
         </div>
     </main>
     <footer class="footer">
@@ -133,6 +45,6 @@
         <p class="rotapieLeo">Desarrollado por Leodegario García Ramírez. Todos los derechos reservados.</p>
         <p>ALURA LATAM © - 2024</p>
     </footer>
-    <script src="script.js"></script>
+    <script src="/js/script.js"></script>
 </body>
 </html>
