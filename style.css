@@ -1,0 +1,123 @@
+*{
+    /* background-color: #8C0375; */
+    font-family: "Inter";
+    /* font-size: 25px; */
+}
+
+.header{
+    background-image: url(/img/hearts.png);
+    background-repeat: no-repeat;
+    background: #5D04D9;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.main{
+    display: flex;
+    /* justify-content: center; */
+    /* flex-direction: row; */
+}
+.mis_productos_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+}
+.misProductos{
+    display: flex;
+    justify-content: center;
+}
+.ulCarts{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+.videos__item{
+    display: flex;
+    background-color: #5D04D9;
+    color: white;
+    border-radius: 15px;
+    margin: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+.card_item{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+.pieImg{
+    margin: 5px;
+}
+.descripcion_borrar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.agregar_producto_container{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    width: 50%;
+    
+}
+.agregarProducto{
+    display: flex;
+    justify-content: center;
+}
+.inputsAgregarP{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    align-items: center;
+}
+.inputDetalles{
+    display: flex;
+    padding: 15px;
+    margin: 20px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    border-width: 1px;
+    width: 50%;
+
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+.btnEnviar{
+    background-color: #03318C;
+    display: flex;
+    padding: 15px 50px 15px 50px;
+    margin: 10px;
+    font-size: 15px;
+    border-radius: 15px;
+    border-width: 1px;
+    cursor: pointer;
+    color: white;
+}
+.btnLimpiar{
+    display: flex;
+    padding: 15px 50px 15px 50px;
+    margin: 10px;
+    font-size: 15px;
+    border-radius: 15px;
+    border-width: 1px;
+    cursor: pointer;
+}
+
+.footer{
+    background: #5D04D9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.imgYAluraRotapie{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
