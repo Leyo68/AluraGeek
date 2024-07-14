@@ -1,7 +1,7 @@
 
 async function obtenerProductos() {
     try {
-      const response = await fetch('http://localhost:3000/productos');
+      const response = await fetch('https://github.com/Leyo68/AluraGeek/blob/main/db.json');
       if (!response.ok) {
         throw new Error('Error al obtener los productos');
       }
@@ -79,7 +79,7 @@ async function mostrarProductos() {
 
   async function agregarProducto(nombre, precio, imagen) {
     try {
-      const response = await fetch('http://localhost:3000/productos', {
+      const response = await fetch('https://github.com/Leyo68/AluraGeek/blob/main/db.json', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -113,7 +113,7 @@ async function mostrarProductos() {
         console.log(nombre, precio, imagen);
 
         try {
-            const response = await fetch('http://localhost:3000/productos', {
+            const response = await fetch('https://github.com/Leyo68/AluraGeek/blob/main/db.json', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
